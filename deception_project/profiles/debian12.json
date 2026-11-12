@@ -1,0 +1,30 @@
+{
+  "profile_name": "Debian 12 SSH Honeypot",
+  "hostname": "svr04",
+  "os": {
+    "id": "debian",
+    "name": "Debian GNU/Linux",
+    "version_id": "12",
+    "pretty_name": "Debian GNU/Linux 12",
+    "debian_version": "12.5"
+  },
+  "kernel": {
+    "name": "Linux",
+    "release": "6.1.0-21-amd64",
+    "architecture": "x86_64",
+    "operating_system": "GNU/Linux"
+  },
+  "identity": {
+    "username": "root",
+    "uid": 0,
+    "gid": 0,
+    "home": "/root"
+  },
+  "expected_files": [
+    "/etc/os-release",
+    "/usr/lib/os-release",
+    "/etc/hostname",
+    "/etc/issue",
+    "/etc/debian_version"
+  ]
+}
